@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="app-title">Weather App</h1>
+        <div class="weather-card">
+            <div class="search-container">
+                <input type="text" id="locationSearch" placeholder="Search location...">
+                <button id="searchButton">Search</button>
+            </div>
+            <div class="location" id="location">New York, NY</div>
+            <div class="weather-desc" id="description">Partly Cloudy</div>
+            <div class="temp-container">
+                <div class="current-temp">
+                    <span id="temperature">25</span>°C
+                </div>
+                <div>
+                    H: <span id="highTemp">27</span>° 
+                    L: <span id="lowTemp">22</span>°
+                </div>
+            </div>
+            <div class="weather-details">
+                <div class="detail">
+                    <span class="detail-icon">💨</span>
+                    <span id="wind">8 km/h</span>
+                </div>
+                <div class="detail">
+                    <span class="detail-icon">💧</span>
+                    <span id="humidity">65%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
